@@ -765,7 +765,7 @@ const _export_sfc = (sfc, props) => {
 };
 const _sfc_main$2 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<div${ssrRenderAttrs(_attrs)}><h1>Vercel Test 🔺</h1></div>`);
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1>Vercel Test 🔺</h1><p>This is the second one btw!</p></div>`);
 }
 const _sfc_setup$2 = _sfc_main$2.setup;
 _sfc_main$2.setup = (props, ctx) => {
